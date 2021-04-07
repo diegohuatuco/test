@@ -1,0 +1,35 @@
+<nav class="">
+    <div class="conntainer-logotipo">
+        <div class="container text-center">
+            <div class="">
+                <a class="" href="#"><img src="./assets/img/logotipo_iep_santa_cecilia.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+<div class="container text-center mb-3 ">
+    <h4 class="title-business">CONTROL DE ASISTENCIA Y PLANILLA</h4>
+</div>
+
+
+    <div style="display: grid;align-items: center; grid-template-columns: 1fr 1fr; grid-column-gap: 70px; width: 900px; margin: 0 auto; margin-bottom: 80px;">
+        <div>
+            <form [formGroup]="loginForm">
+                <div class="form-group">
+                    <label for="exampleInputEmail1">USUARIO</label>
+                    <input type="email" class="form-control" placeholder="Ingresar usuario" formControlName="user">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">CONTRASEÑA</label>
+                    <input type="password" class="form-control"  placeholder="Ingresar contraseña" formControlName="password">
+                </div>
+                <button type="submit" class="btn btn-primary">Ingresar</button>
+            </form>
+        </div>
+        <div>
+            <img style="width: 100%;" src="./assets/img/clip-school-teacher.png" alt="">
+        </div>
+    </div>
+

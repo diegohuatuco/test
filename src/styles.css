@@ -1,1 +1,22 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+    background-color: #FCFCFC;
+}
+.footerBackground{
+    background-color: #DAF6EA;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.container-contact{
+    display: flex;
+    align-items: center;
+    justify-content:  center;
+}
+
+.container-contact a{
+    margin-left: 40px;
+}
+
+.container-contact:first-child{
+    margin-left: 0;
+}
